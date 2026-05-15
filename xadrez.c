@@ -4,6 +4,7 @@
 
         int iBispo = 1;
         int iRainha = 1;
+        int movimentocompleto = 1;
 
         printf("Primeiro Movimento\n");
         //movimento da Torre usando for
@@ -27,7 +28,18 @@
         printf("Rainha moveu-se para esquerda\n");
         iRainha++;
         } while (iRainha <= 5 );
-        
+
+        printf("\nQuarto Movimento\n");
+
+        while (movimentocompleto --)
+        {
+            for (int i = 1; i <= 2; i++)
+            {
+                printf("Cavalo moveu-se para Baixo\n");
+            }
+            printf("Cavalo moveu-se para Esquerda\n");
+        }
+            
 
         return 0;
     }
